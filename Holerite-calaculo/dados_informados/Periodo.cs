@@ -9,15 +9,15 @@ namespace Holerite_calaculo.dados_informados
 
     public class Periodo
     {
-        private  _Mes _mes;
-        private  int _ano;
+        private _Mes _mes;
+        private int _ano;
 
-        public  _Mes Mes { 
+        public _Mes Mes { 
             get => _mes;
             set => _mes = value;
         }
 
-        public  int Ano { 
+        public int Ano { 
             get => _ano; 
             set => _ano = value; }
 

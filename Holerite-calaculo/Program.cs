@@ -1,11 +1,12 @@
-﻿using Holerite_calaculo.dados_informados;
+﻿using Holerite_calaculo.dados_calculados;
+using Holerite_calaculo.dados_informados;
 using System;
 
 namespace Holerite_calaculo
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Periodo periodo = new Periodo();
             Jornada jornada = new Jornada();
@@ -25,8 +26,14 @@ namespace Holerite_calaculo
             vt._dVT = false;
             
             Holerite holerite = new Holerite(954, new DateTime(2019, 10, 23), 0, 0, 1, 0, 0, 0, 2, 0, 0, periodo, jornada, vt );
+
+            Periodo_C calc = new Periodo_C();
+            calc.CriandoVariaveis(holerite.periodo);
+            
+            
+
             //Escrever Linha
-           //Console.WriteLine();
+            //Console.WriteLine();
         }
     }
 }
