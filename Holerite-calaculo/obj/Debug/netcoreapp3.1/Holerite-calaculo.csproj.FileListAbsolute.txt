@@ -1,0 +1,11 @@
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.exe
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.deps.json
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.runtimeconfig.json
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.runtimeconfig.dev.json
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.dll
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\bin\Debug\netcoreapp3.1\Holerite-calaculo.pdb
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\obj\Debug\netcoreapp3.1\Holerite-calaculo.csprojAssemblyReference.cache
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\obj\Debug\netcoreapp3.1\Holerite-calaculo.AssemblyInfoInputs.cache
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\obj\Debug\netcoreapp3.1\Holerite-calaculo.AssemblyInfo.cs
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\obj\Debug\netcoreapp3.1\Holerite-calaculo.dll
+C:\Users\octavius.alimari\source\repos\Holerite-calaculo\Holerite-calaculo\obj\Debug\netcoreapp3.1\Holerite-calaculo.pdb
