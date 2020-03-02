@@ -1,5 +1,7 @@
 using System;
 using Xunit;
+using Holerite_calaculo.dados_informados;
+using Holerite_calaculo.dados_calculados;
 
 namespace holerite_teste
 {
@@ -8,7 +10,7 @@ namespace holerite_teste
         [Fact]
         public void Test1()
         {
-
+            
         }
     }
 }
