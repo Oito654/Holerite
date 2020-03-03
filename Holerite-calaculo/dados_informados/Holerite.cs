@@ -9,9 +9,10 @@ namespace Holerite_calaculo.dados_informados
     {
         public Holerite(decimal _sb, DateTime _dA, decimal _sF, decimal _pA, decimal _dIR, decimal _nF, decimal _adi, decimal _gra, double _hr50, double _hr100, double _hrN, Periodo periodo, Jornada jornada, VT vt )
         {
+
             salarioBase = _sb;
             dataDeAdmissao = _dA;
-            salarioFamilia = _sF;
+            dependentesSalarioFamilia = _sF;
             pensaoAlimenticia = _pA;
             dependentesIR = _dIR;
             numeroDeFaltas = _nF;
@@ -30,7 +31,7 @@ namespace Holerite_calaculo.dados_informados
         public DateTime dataDeAdmissao { 
             get; 
             set; }
-        public decimal salarioFamilia {
+        public decimal dependentesSalarioFamilia {
             get; 
             set; }
         public decimal pensaoAlimenticia { 

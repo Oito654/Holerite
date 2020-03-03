@@ -8,7 +8,7 @@ namespace Holerite_calaculo.dados_informados
     
     public class VT
     {
-        private  TipoDeVT _vt;
+        public  TipoDeVT _vt;
         public  bool _dVT;
         public  double _vVTP;
         public  decimal _aVT;

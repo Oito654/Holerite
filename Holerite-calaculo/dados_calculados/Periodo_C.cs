@@ -8,58 +8,68 @@ namespace Holerite_calaculo.dados_calculados
    
     public class Periodo_C
     {
-        int mes_s;
-        int ano_s;
-        int ano_a;
-        int mes_a;
-
-
-        public int Mes_Ano(Holerite holerite)
+        public int Mes_Atual(Holerite holerite)
         {
+            return (int) holerite.periodo.Mes;
+        }
 
-            mes_a = (int)holerite.periodo.Mes;
-            mes_s = mes_a++;
-            ano_a = holerite.periodo.Ano;
-            var diaAtual = DateTime.Now;
-            var diasTrabalhados = diaAtual.Subtract(holerite.dataDeAdmissao).Days;
+        public int Ano_Atual(Holerite holerite)
+        {
+            return holerite.periodo.Ano;
+        }
 
-            if (mes_s == (int)_Mes.Dez)
+        public int Mes_Seguinte(Holerite holerite)
+        {
+            var mes_atual = Mes_Atual(holerite);
+            return mes_atual + 1;
+        }
+
+        public int Ano_Seguinte(Holerite holerite)
+        {
+            int ano_s;
+
+            var mes_atual = (_Mes) Mes_Atual(holerite);
+            var ano_atual = Ano_Atual(holerite);
+
+            if (mes_atual.Equals(_Mes.Dez))
             {
-                ano_s = ano_a++;
-                holerite.periodo.Mes = (_Mes)mes_s;
-                
-                
-                 
+                ano_s = ano_atual++;
+                holerite.periodo.Mes = _Mes.Jan;
             }
             else
             {
-                ano_s = ano_a;
+                ano_s = ano_atual;
                 holerite.periodo.Ano = ano_s;
-                holerite.periodo.Mes = (_Mes)mes_s;
-                
 
             }
 
-
+            return ano_s;
+        }
+        public int Dias_Trabalhados(Holerite holerite)
+        {
+            var diaAtual = DateTime.Now;
+            var diasTrabalhados = diaAtual.Subtract(holerite.dataDeAdmissao).Days;
             return diasTrabalhados;
         }
 
-        public int Dias_do_Mes()
+        public int Dias_do_Mes(Holerite holerite)
         {
-             var diasNoMes = DateTime.DaysInMonth(ano_a, mes_a);
+             var ano_atual = Ano_Atual(holerite);
+             var mes_atual = Mes_Atual(holerite);
+             var diasNoMes = DateTime.DaysInMonth(ano_atual, mes_atual);
              return  diasNoMes;
             
         }
 
-        internal void Mes_Ano()
+        public int Dias_do_Proximo_Mes(Holerite holerite)
         {
-            throw new NotImplementedException();
-        }
+            var mes_seguinte = Mes_Seguinte(holerite);
+            var ano_seguinte = Ano_Seguinte(holerite);
+            var diasNoMesSeguinte = DateTime.DaysInMonth(ano_seguinte, mes_seguinte);
+            return diasNoMesSeguinte;
 
-        internal void Mes_Ano(Periodo periodo)
-        {
-            throw new NotImplementedException();
         }
+       
     }
 
 

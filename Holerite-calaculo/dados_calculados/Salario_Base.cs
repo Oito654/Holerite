@@ -13,7 +13,7 @@ namespace Holerite_calaculo.dados_calculados
 
         public decimal Salario_dia(Holerite holerite, Periodo_C periodo_C)
         {
-            salario_dia = holerite.salarioBase / periodo_C.Dias_do_Mes();
+            salario_dia = holerite.salarioBase / periodo_C.Dias_do_Mes(holerite);
             return salario_dia;
         }
 
@@ -26,7 +26,7 @@ namespace Holerite_calaculo.dados_calculados
 
         public decimal Salario_Base_Proporcional(Holerite holerite, Periodo_C periodo_C)
         {
-            salario_prop = holerite.salarioBase / periodo_C.Dias_do_Mes() * periodo_C.Mes_Ano(holerite);
+            salario_prop = holerite.salarioBase / periodo_C.Dias_do_Mes(holerite) * periodo_C.Dias_Trabalhados(holerite);
 
             return salario_prop;
         }
