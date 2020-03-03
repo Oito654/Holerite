@@ -22,6 +22,8 @@ namespace Holerite_calaculo.dados_informados
             jornada.qui = true;
             jornada.sex = true;
             jornada.jhm = 220;
+            jornada.feriados = 1;
+            jornada.feriadosMesSeguinte = 1;
             vt._VT = TipoDeVT.POR_DIA;
             vt._aVT = 0;
             vt._vVTP = 8.80;

@@ -14,6 +14,8 @@ namespace Holerite_calaculo.dados_informados
         public  bool sex = false;
         public  bool sab = false;
         public  decimal jhm;
+        public int feriados;
+        public int feriadosMesSeguinte;
 
         public  bool Domingo { 
             get => dom; 
@@ -39,5 +41,13 @@ namespace Holerite_calaculo.dados_informados
         public  decimal Jornada_hrs_mensais { 
             get => jhm; 
             set => jhm = value; }
+        public int Feriados { 
+            get => feriados; 
+            set => feriados = value; }
+        public int FeriadosMesSeguinte
+        {
+            get => feriadosMesSeguinte;
+            set => feriadosMesSeguinte = value;
+        }
     }
 }
