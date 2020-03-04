@@ -22,14 +22,14 @@ namespace Holerite_calaculo.dados_informados
             jornada.qui = true;
             jornada.sex = true;
             jornada.jhm = 220;
-            jornada.feriados = 1;
+            jornada.feriadosMesAtual = 1;
             jornada.feriadosMesSeguinte = 1;
             vt._VT = TipoDeVT.POR_DIA;
             vt._aVT = 0;
             vt._vVTP = 8.80;
             vt._dVT = false;
             Holerite holerite = new Holerite(954, new DateTime(2019, 10, 23), 0, 0, 1, 0, 0, 0, 2, 0, 0, periodo, jornada, vt);
-            cal.Calculos(holerite, jornada);
+            cal.Calculos(holerite, jornada, cal);
             
         }
     }

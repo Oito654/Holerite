@@ -7,7 +7,7 @@ namespace Holerite_calaculo.dados_informados
 {
     public class Holerite
     {
-        public Holerite(decimal _sb, DateTime _dA, decimal _sF, decimal _pA, decimal _dIR, decimal _nF, decimal _adi, decimal _gra, double _hr50, double _hr100, double _hrN, Periodo periodo, Jornada jornada, VT vt )
+        public Holerite(decimal _sb, DateTime _dA, decimal _sF, decimal _pA, decimal _dIR, decimal _nF, decimal _adi, decimal _gra, int _hr50, int _hr100, int _hrN, Periodo periodo, Jornada jornada, VT vt )
         {
 
             salarioBase = _sb;
@@ -49,13 +49,13 @@ namespace Holerite_calaculo.dados_informados
         public decimal gratificações {
             get; 
             set; }
-        public double horasExtras50 { 
+        public int horasExtras50 { 
             get; 
             set; }
-        public double horasExtras100 {
+        public int horasExtras100 {
             get; 
             set; }
-        public double horasExtrasNoturno { 
+        public int horasExtrasNoturno { 
             get; 
             set; }
         public Periodo periodo {
