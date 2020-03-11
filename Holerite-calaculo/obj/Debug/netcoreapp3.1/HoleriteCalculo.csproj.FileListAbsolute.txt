@@ -1,0 +1,14 @@
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.csprojAssemblyReference.cache
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.AssemblyInfoInputs.cache
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.AssemblyInfo.cs
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.exe
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.deps.json
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.runtimeconfig.json
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.runtimeconfig.dev.json
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.dll
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\HoleriteCalculo.pdb
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Project\holerite\Holerite-calaculo\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.csproj.CopyComplete
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.dll
+C:\Project\holerite\Holerite-calaculo\obj\Debug\netcoreapp3.1\HoleriteCalculo.pdb

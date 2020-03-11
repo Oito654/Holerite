@@ -4,12 +4,12 @@
     "C:\\Project\\holerite\\holerite-teste\\holerite-teste.csproj": {}
   },
   "projects": {
-    "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj": {
+    "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj",
-        "projectName": "Holerite-calculo",
-        "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj",
+        "projectUniqueName": "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj",
+        "projectName": "HoleriteCalculo",
+        "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj",
         "packagesPath": "C:\\Users\\octavius.alimari\\.nuget\\packages\\",
         "outputPath": "C:\\Project\\holerite\\Holerite-calaculo\\obj\\",
         "projectStyle": "PackageReference",
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj": {
-                "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj"
+              "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj": {
+                "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj"
               }
             }
           }

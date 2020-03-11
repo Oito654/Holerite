@@ -88,9 +88,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj",
-      "projectName": "Holerite-calculo",
-      "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\Holerite-calculo.csproj",
+      "projectUniqueName": "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj",
+      "projectName": "HoleriteCalculo",
+      "projectPath": "C:\\Project\\holerite\\Holerite-calaculo\\HoleriteCalculo.csproj",
       "packagesPath": "C:\\Users\\octavius.alimari\\.nuget\\packages\\",
       "outputPath": "C:\\Project\\holerite\\Holerite-calaculo\\obj\\",
       "projectStyle": "PackageReference",

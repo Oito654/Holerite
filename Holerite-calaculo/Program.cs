@@ -1,15 +1,15 @@
-﻿using Holerite_calaculo.dados_calculados;
-using Holerite_calaculo.dados_informados;
+﻿using HoleriteCalculo.DadosCalculados;
+using HoleriteCalculo.DadosInformados;
 using System;
 
-namespace Holerite_calaculo
+namespace HoleriteCalculo
 {
     class Program
     {
         public static void Main(string[] args)
         {
             Fechamento fechamento = new Fechamento();
-            fechamento._Fechamento();
+            fechamento.Fechar();
         }
 
     }
